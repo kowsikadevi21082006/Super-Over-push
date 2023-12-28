@@ -14,10 +14,9 @@ body {
   color: white;
 }
 
-.logo {
+#logo {
   width: 10vw;
   margin-top: 5vh;
-  text-align: center;
 }
 
 h1 {
@@ -29,7 +28,7 @@ section {
   margin: 10vh auto;
 }
 
-#button {
+#buttons {
   width: 50%;
 }
 
@@ -48,19 +47,12 @@ section {
   padding: 10px;
 }
 
-.score {
+.scoreboard {
   font-size: 3em;
   font-weight: bold;
 }
 
-.india {
-  padding: 30px;
-  height: auto;
-  border-radius: 20px;
-  margin: 0 50px;
-}
-
-.pakistan {
+.score {
   padding: 30px;
   height: auto;
   border-radius: 20px;
@@ -82,10 +74,9 @@ section {
 #team2 {
   display: inline-block;
   background-color: #1fa83d;
-  margin-right: 100px;
 }
 
-#team1-cricket,
-#team2-cricket {
+#team1-superover,
+#team2-superover {
   margin: 20px;
 }
